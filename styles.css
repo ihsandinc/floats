@@ -20,6 +20,7 @@
   .footer {
     height: 200px;
     background-color: #D6E9FE;    /* Light blue */
+    clear: both;
   }
 
   .sidebar {
@@ -31,4 +32,6 @@
   .page {
     width: 900px;
     margin: 0 auto;
+    overflow: hidden; 
+    border: 1px solid red;
   }
